@@ -1,1 +1,0 @@
-# aruizriv.github.io
