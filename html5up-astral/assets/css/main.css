@@ -2244,3 +2244,11 @@ input, select, textarea {
     background-color: #333; /* Slightly lighter black on hover */
 }
 
+#past-members {
+    display: none; /* Hide by default */
+}
+
+/* Show only on the Lab Members page */
+#Lab-Members #past-members {
+    display: block; /* Make it visible only inside the Lab Members section */
+}
