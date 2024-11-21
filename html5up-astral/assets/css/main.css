@@ -2207,3 +2207,40 @@ input, select, textarea {
 	color: black; /* Set text color to blacl */
 	margin: 0; /* Remove default margin */
 }
+
+/* Contact Us Form Styling */
+#contact-us form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-us input[type="text"],
+#contact-us input[type="email"],
+#contact-us textarea {
+    width: 100%; /* Full width for text boxes */
+    margin-bottom: 20px; /* Add even spacing between boxes */
+    padding: 10px; /* Add padding for better usability */
+    border: 2px solid black; /* Black border with slight thickness */
+    border-radius: 8px; /* Slightly rounded corners */
+    font-size: 16px; /* Readable font size */
+    box-sizing: border-box; /* Ensure padding is inside the width */
+}
+
+#contact-us textarea {
+    resize: none; /* Prevent resizing for cleaner appearance */
+}
+
+#contact-us input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact-us input[type="submit"]:hover {
+    background-color: #333; /* Slightly lighter black on hover */
+}
+
