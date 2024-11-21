@@ -216,5 +216,18 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+		<!-- Custom Script to Hide Past Members Section -->
+		<script>
+		document.addEventListener('DOMContentLoaded', function () {
+    			const pastMembersSection = document.querySelector('#past-members');
+    			const currentPage = document.querySelector('article.panel').id;
+
+    			if (currentPage !== 'Lab-Members') {
+        			pastMembersSection.style.display = 'none'; // Hide on other pages
+    			} else {
+        			pastMembersSection.style.display = 'block'; // Show on Lab Members page
+   			}
+		});
+		</script>
 	</body>
 </html>
