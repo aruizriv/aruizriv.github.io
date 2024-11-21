@@ -2189,3 +2189,21 @@ input, select, textarea {
 			}
 
 		}
+/* Centering and Syling for Burke Lab Text */
+#home {
+	display: flex;
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+	height: 100vh; /* Full viewport height */
+	background-color: white; /* Ensure the box is white */
+	text-align: center; /* Center-align text */
+	margin: 0 auto:
+}
+
+#home h1 {
+	font-family: 'Source Sans Pro', sans-serif; /* Use the imported sans-serif font *?
+	font-size: 54px; /* Adjust font size */
+	font-weight: bold; /* Make it bold */
+	color: black; /* Set text color to blacl */
+	margin: 0; /* Remove default margin */
+}
