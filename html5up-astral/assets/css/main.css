@@ -2252,3 +2252,27 @@ input, select, textarea {
 #Lab-Members #past-members {
     display: block; /* Make it visible only inside the Lab Members section */
 }
+/* Center the content within the Home section */
+#Home {
+    display: flex;                  /* Enable flexbox */
+    flex-direction: column;         /* Arrange items vertically */
+    justify-content: center;        /* Center content vertically */
+    align-items: center;            /* Center content horizontally */
+    height: 100vh;                  /* Make it fill the entire viewport */
+    margin: 0;
+    text-align: center;             /* Center text alignment for all content inside #Home */
+}
+
+/* Style for the centered title in the Home section */
+#Home .centered-title {
+    font-size: 3rem;                /* Adjust for a prominent size */
+    font-weight: bold;              /* Make it stand out */
+    margin: 0.5em 0;                /* Add spacing around the title */
+}
+
+/* Style for the text below the title in the Home section */
+#Home .centered-text {
+    font-size: 1.2rem;              /* Slightly smaller than the title */
+    margin: 0;                      /* No extra margin for a clean look */
+    color: #555;                    /* Softer gray for readability */
+}
